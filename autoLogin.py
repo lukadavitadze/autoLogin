@@ -16,8 +16,3 @@ pw = driver.find_element(by=By.NAME, value="Passwd")
 pw.send_keys("#PaSSWord#")
 button_two = driver.find_element(by=By.ID, value="passwordNext")
 button_two.click()
-search = driver.find_element(by=By.ID, value=":np")
-search.send_keys("lukinio2222@gmail.com")
-button_two = driver.find_element(by=By.ID, value="button")
-button_two.click()
-
